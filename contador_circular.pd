@@ -1,0 +1,48 @@
+#N canvas 264 264 454 304 10;
+#X obj -165 -30 int;
+#X obj -193 -138 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj -139 -138 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj -193 -114 int;
+#X obj -199 -52 - 1;
+#X obj -141 -114 int;
+#X obj -125 -60 + 1;
+#X obj -125 -88 moses;
+#X msg -96 -61 0;
+#X floatatom 29 8 5 0 0 0 - - -;
+#X floatatom -161 -56 5 0 0 0 - - -;
+#X floatatom 5 8 5 0 0 0 - - -;
+#X obj -207 -92 moses 1;
+#X obj -209 -72 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj -218 -179 inlet;
+#X obj -114 -177 inlet;
+#X obj -4 -173 inlet;
+#X obj -130 63 outlet;
+#X text -215 -214 Afro-beat Machine \, by Jabah Pureza. LICENSE: GPL
+v3.0;
+#X text -216 -205 http://jarbasjacome.wordpress.com;
+#X connect 0 0 3 1;
+#X connect 0 0 5 1;
+#X connect 0 0 11 0;
+#X connect 1 0 3 0;
+#X connect 2 0 5 0;
+#X connect 3 0 12 0;
+#X connect 4 0 0 0;
+#X connect 5 0 7 0;
+#X connect 6 0 0 0;
+#X connect 7 0 6 0;
+#X connect 7 1 8 0;
+#X connect 8 0 0 0;
+#X connect 9 0 7 1;
+#X connect 9 0 10 0;
+#X connect 10 0 0 0;
+#X connect 11 0 17 0;
+#X connect 12 0 13 0;
+#X connect 12 1 4 0;
+#X connect 13 0 10 0;
+#X connect 14 0 1 0;
+#X connect 15 0 2 0;
+#X connect 16 0 9 0;
+#X coords 0 -1 1 1 70 30 2 0 0;

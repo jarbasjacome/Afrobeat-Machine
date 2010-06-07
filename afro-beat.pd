@@ -1,0 +1,13 @@
+#N canvas 0 25 1247 665 36;
+#X msg 666 -248 loop_control;
+#X obj 666 -304 r $estado_string;
+#X msg 38 -257 lady;
+#X obj 39 -306 r $music_name;
+#X msg 24 213 \; ratinhos cosinesum 256 0.2 -0.2 0.2 -0.2 0.2 -0.2
+0.2;
+#X text 14 -355 http://jarbasjacome.wordpress.com;
+#X text 17 -388 Afrobeat Machine \, by Jabah Pureza. LICENSE: GPL v3.0
+;
+#X obj 22 -206 afro-beat_machine;
+#X connect 1 0 0 0;
+#X connect 3 0 2 0;
